@@ -5,12 +5,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=rosenpass
-PKG_VERSION:=0.2.1
+PKG_VERSION:=e92fa55
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=https://codeload.github.com/rosenpass/rosenpass/tar.gz/v$(PKG_VERSION)?
-PKG_HASH:=09dffa62c9bbf3bfa4b34c7667f4052f3c262195a45da9c21c8123f197e7742a
+PKG_SOURCE_URL:=https://codeload.github.com/rosenpass/rosenpass/tar.gz/$(PKG_VERSION)?
+PKG_HASH:=2b46cf58328cd2f6fb9c3f0dd9677a0c773e291f3f7e20a120d857584e94fdc1
 
 PKG_MAINTAINER:=Paul Spooren <mail@aparcar.org>
 PKG_LICENSE:=MIT
